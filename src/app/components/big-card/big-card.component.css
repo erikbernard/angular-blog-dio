@@ -1,0 +1,26 @@
+.container__big-card {
+  border: solid var(--border-color) 1px;
+  border-radius: 10px;
+  box-shadow: 0 25px 25px var(--shadow-color);
+  backdrop-filter: blur(20px);
+  width: min-content;
+  max-height: 550px;
+  margin: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.big-card__title > h1 {
+  padding: 15px;
+}
+
+.big-card__description > h5 {
+  text-align: justify;
+  padding: 15px;
+}
+.big-card__description > h5 > a {
+  color: var(--text-description);
+}
+a {
+    text-decoration: none;
+}

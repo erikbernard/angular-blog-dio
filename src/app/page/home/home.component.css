@@ -1,0 +1,9 @@
+.container__articles {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+section {
+  margin: 15px;
+}

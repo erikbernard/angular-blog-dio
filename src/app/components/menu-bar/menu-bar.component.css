@@ -1,0 +1,18 @@
+.container__menu-bar {
+margin: 5px 0;
+}
+.container__menu-bar > ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.container__menu-bar > ul > li {
+  padding: 10px;
+  list-style: none;
+  font-weight: 700;
+}
+a {
+  text-decoration: none;
+}

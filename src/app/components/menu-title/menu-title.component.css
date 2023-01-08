@@ -1,0 +1,13 @@
+.container__menu-title {
+    border-top: solid 3px var(--text);
+    border-bottom: solid 3px var(--text);
+    padding: .5rem;
+    margin:.5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container__menu-title > h1{
+    font-size: var(--big-title-size);
+    color: var(--text);
+}

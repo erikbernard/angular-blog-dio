@@ -1,0 +1,27 @@
+.container__small-card {
+  border: solid var(--border-color) 1px;
+  border-radius: 10px;
+  box-shadow: 0 25px 25px var(--shadow-color);
+  backdrop-filter: blur(20px);
+  overflow: hidden;
+  width: auto;
+  margin: 10px 0 40px 0;
+  display: flex;
+  flex-direction: row;
+  padding-right: 15px;
+}
+
+.small-card__photo > img {
+  height: 100%;
+  width: 200px;
+  max-width: 200px;
+  margin-right: 18px;
+}
+.small-card__date > h5 {
+  color: var(--text-description);
+}
+.container__small-card :nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
